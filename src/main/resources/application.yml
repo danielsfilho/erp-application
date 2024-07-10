@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: erp-webapp
+  datasource:
+    url: ${PG_URL}
+    password: ${PG_PASSWORD}
+    username: ${PG_USERNAME}
+  jpa:
+    hibernate:
+      ddl-auto: update
